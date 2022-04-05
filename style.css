@@ -1,0 +1,60 @@
+.section1 {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.logo, .hero-main {
+    color: #f9faf8;
+}
+
+.image-1 {
+    margin-left: 25px;
+}
+
+
+
+.content {
+    margin: 0 175px;
+}
+
+.links-and-logo {
+    display: flex;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    margin: 80px 0px;
+}
+
+
+
+.links {
+    margin-left: auto;
+}
+
+.links li {
+    padding-left: 15px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0%;
+}
+
+ul {
+    list-style: none;
+    padding: 0%;
+    display: flex;
+}
+
+a {
+    text-decoration: none ;
+}
+
+a, .hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
