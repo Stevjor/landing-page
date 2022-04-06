@@ -74,8 +74,10 @@ a, .hero-text {
 
 .content-2 ,.section2 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    /*flex-wrap: wrap;*/
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
 }
 
 .image-container {
