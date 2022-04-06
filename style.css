@@ -4,15 +4,28 @@
     justify-content: center;
 }
 
-.logo, .hero-main {
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+button, .logo, .hero-main {
     color: #f9faf8;
 }
 
 .image-1 {
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
+.information-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
 
+button {
+    background-color: #3882f6;
+}
 
 .content {
     margin: 0 175px;
@@ -57,4 +70,105 @@ a {
 a, .hero-text {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.content-2 ,.section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container {
+    display: flex;
+}
+
+.fix-width {
+    width: 125px;
+    margin: 0 20px;
+}
+
+.section2 {
+    margin-bottom: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    margin-bottom: 0%;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    padding: 100px 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.author {
+    margin-top: 0%;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section4 {
+    padding: 75px 160px;
+}
+
+.call-to-action {
+    
+    background-color: #3882f6;
+    padding: 20px 100px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order {
+    margin-bottom: 0%;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.order-description {
+    margin-top: 0%;
+}
+
+button {
+    border-radius: 8px;
+    padding: 2px 20px;
+}
+
+.button-bottom {
+    border-color: #f9faf8;
+}
+
+.button-container {
+    display: flex;
+    align-self: center;
+    margin-top: 25px;
+}
+
+.section5 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-paragraph {
+    color: #f9faf8;
 }
